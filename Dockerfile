@@ -59,9 +59,6 @@ RUN tlmgr update --self \
 
 WORKDIR /workdir
 
-COPY .latexmkrc /
-COPY .latexmkrc /root/
-
 LABEL org.opencontainers.image.source=https://github.com/Laika/latex-template
 LABEL org.opencontainers.image.description="LaTeX template"
 LABEL org.opencontainers.image.licenses=MIT
